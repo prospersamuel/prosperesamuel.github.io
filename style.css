@@ -1,55 +1,38 @@
 body{
-    text-align: center;
-    margin: 0;
-    font-family: cursive;
-    
-
-}
-.container{
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: aliceblue;
-    padding: 30px;
-    box-shadow: 0 0 20px;
-    border-radius: 100px;
-}
-input{
-    height: 50px;
-    width: 500px;
-    padding: 10px;
-    border-style: hidden;
-    background-color: rgba(120, 162, 187, 0.096);
-
-}
-button:hover {
-    width: 525px;
-    height: 50px;
-    background-color: rgba(120, 162, 187, 0.096);
-    cursor: pointer;
-
-}
-hr{
-    width: 500px;
-}
-img{
-    width: 300px;
-    border-radius: 300px;
-    height:300px;
-}
-a{
-    width: 100px;
-    color: black;
+	font: 'railway', sans-serif ;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top:15%;
+	background: linear-gradient(to right, red, yellow);
+	display: flex;
+	height: 1900px;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+	align-content: center;
 }
 h1{
-    border: 5px solid black;
-
+	font: 600 3.5em 'railway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	width: 100%;
 }
-button{
-    width: 525px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.336);
-    cursor: pointer; 
+h3{
+	font: 800 1em 'railway', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
 }
-
-
-
+#color1{
+	width: 200px;
+	height: 100px;
+}
+#color2{
+	width: 200px;
+	height: 100px;
+}
